@@ -1,39 +1,9 @@
-VIDEO TUTORIAL:
-Bootstrap Tutorial ITA - Imparalo subito! Corso rapido per principianti. Guida in ITALIANO
-25 marzo 2021
+VIDEO TUTORIAL - PLAYLIST:
+https://www.youtube.com/watch?v=ENvDFemELwU&list=PLI8CnIMh7oBGbEN4MVmTAWkzY0kmIQyXA
 PitoneProgrammatore
-https://www.youtube.com/watch?v=Vg5lwv3WA3M
-
+25 marzo 2021
+Crea un Sito Web Completo Fullstack e Pubblicalo Online!
 - Bootstrap
 - React JS
 - Django
 - MySql
-
-Sito Bootstrap:
-https://getbootstrap.com/
-
-Scarica la cartella "images" usata in questo tutorial:
-https://drive.google.com/file/d/1cxbK...
-
-Tutorial rapido HTML e CSS:
-https://youtu.be/TxcJ2drr554
-
-INDICE DEI CONTENUTI:
-00:00 Cosa realizzeremo in questo video!
-01:42 Preparare il file e l'ambiente per lavorare con Bootstrap
-02:38 Come Scaricare ed Installare Bootstrap
-04:26 Modificare il Titolo e il Corpo della Pagina
-05:10 Aggiungere una Barra di Navigazione ( NavBar )
-07:10 Personalizzare i Componenti Bootstrap
-08:25 Modificare le Classi CSS Bootstrap
-10:11 Aggiungere elementi HTML semplici e integrarli con Bootstrap
-11:27 Aggiungere Bottoni interattivi
-11:57 Layout e Design Responsive: Il Default Container di Bootstrap
-14:05 Personalizzare Margini e Spaziature
-15:02 Allineamento Testo: Centrare gli elementi in un contenitore
-15:41 Modificare i Parametri di stile: Style CSS
-17:10 Aggiungere e modificare le Card Bootstrap
-19:34 Le Grid Bootstrap: Impostare Righe e Colonne con le Griglie
-21:09 Design Responsive: I Breakpoint Bootstrap
-23:15 Adattamento automatico delle Colonne in una Riga
-24:15 Nei prossimi video di questa serie..
