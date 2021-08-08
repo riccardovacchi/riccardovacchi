@@ -33,7 +33,7 @@ INDICE DEI CONTENUTI:
 23:15 Adattamento automatico delle Colonne in una Riga
 24:15 Nei prossimi video di questa serie..
 
-LOG:
+LOG 8/8/21:
 Creato primo file html hello world, modificato il titolo
 https://getbootstrap.com/docs/5.1/components/navbar/ : aggiunta Navbar icona+titolo
 https://getbootstrap.com/docs/5.1/content/typography/ : usata class="lead"
