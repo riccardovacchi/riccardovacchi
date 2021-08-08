@@ -13,14 +13,17 @@ You can click the Preview link to take a look at your changes.
 RICCARDO VACCHI - PROGETTI
 
 8/8/21
-CONNESSO AD ACCOUNT github.com
-VSCODE: CHIUSO WORKSPACE INDRA
-VSCODE: CLONE REPOSITORY IN C:\PROGETTI
-USATO GIT URL: https://github.com/riccardovacchi/riccardovacchi.git
-VSCODE: COMMIT E SYNCRONIZE
-SPOSTATI IN C:\PROGETTI\riccardovacchi: \SAMPLE e \TORNEO
-VSCODE: COMMIT E SYNCRONIZE
-BACKUPED IN: D:\ARCHIVIO\PROGETTI-BACKUP
+SEGUITA LA GUIDA: https://code.visualstudio.com/docs/editor/github
+- [FATTO] installare GitHub Pull Requests and Issues extension
+- [FATTO] chiuso workspace indra/progetti
+- [FATTO] spostati \SAMPLE e \TORNEO in c:\PROGETTI
+- [FATTO] spostato \TORNEO-BACKUPS in D:\ARCHIVIO\PROGETTI-BACKUP
+- [FATTO] CONNESSO AD ACCOUNT github.com (usando l'icona con omino in basso a sinistra)
+- [FATTO] CLONATO REPOSITORY IN C:\PROGETTI (https://github.com/riccardovacchi/riccardovacchi.git)
+- [FATTO] spostati \SAMPLE e \TORNEO in c:\PROGETTI\riccardovacchi
+- [FATTO] COMMIT E SYNCRONIZE : GitHub aggiornato correttamente!
+- [FATTO] BACKUP c:\PROGETTI\riccardovacchi IN D:\ARCHIVIO\PROGETTI-BACKUP
+N.B.: nella guida ci sono suggerimenti importanti per configurare l'editor, per creare "pull request", gestire REVIEWING e ISSUES. C'è anche l'estensione consigliata "GitHub Repositories" per gestire direttamente il GitHub remoto da VSCODE senza dover clonare il repo.
 
 7/8/21
 Video Tutorial https://www.youtube.com/watch?v=Vg5lwv3WA3M
