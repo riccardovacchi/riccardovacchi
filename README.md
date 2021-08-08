@@ -10,4 +10,22 @@ You can click the Preview link to take a look at your changes.
 --->
 
 8/8/21
-CLONATO IN LOCALE (C:\PROGETTI)
+RICCARDO VACCHI - PROGETTI
+
+8/8/21
+VSCODE: CHIUSO WORKSPACE INDRA
+VSCODE: CLONE REPOSITORY IN C:\PROGETTI
+USATO GIT URL: https://github.com/riccardovacchi/riccardovacchi.git
+VSCODE: COMMIT E SYNCRONIZE
+BACKUPED IN: D:\ARCHIVIO\PROGETTI-BACKUP
+
+7/8/21
+Video Tutorial https://www.youtube.com/watch?v=Vg5lwv3WA3M
+Creata cartella \SAMPLE
+Creata cartella \SAMPLE\PRIMO
+
+Come salvo le versioni dei sorgenti?
+Visual Source Code:
+Esplora Risorse > apertura cartella C:\PROGETTI
+Controllo del codice sorgente > Creato nuovo repository Git > Prima Commit completa
+
