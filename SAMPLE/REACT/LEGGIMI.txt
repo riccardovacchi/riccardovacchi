@@ -62,4 +62,5 @@ N.B. si tratta di codice JSX (estensione del javascript), che usa className (cio
 - [FATTO] aggiunto html dentro al componente JSX : <>...</>
 - [FATTO] pagina responsive : <div className="container">...</div>
 - [FATTO] aggiunti riga e colonna : <Card />
-
+- [32:51] Usate le classi : class App extends Component
+- 
