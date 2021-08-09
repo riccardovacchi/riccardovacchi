@@ -62,5 +62,7 @@ N.B. si tratta di codice JSX (estensione del javascript), che usa className (cio
 - [FATTO] aggiunto codice html Navbar ed eliminato warning : class --> className
 - [17:23] sostituito l'inefficente codice html con il componente Navbar : <Navbar />
 - [FATTO] aggiunto html dentro al componente JSX : <>...</>
+- [FATTO] pagina responsive : <div className="container">...</div>
+- [FATTO] aggiunti riga e colonna : <Card />
 
 
