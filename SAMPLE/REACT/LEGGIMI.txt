@@ -59,4 +59,8 @@ N.B. si tratta di codice JSX (estensione del javascript), che usa className (cio
 - [FATTO] Aggiungere Bootstrap a react (previa stop nodejs) : npm install bootstrap
 - [FATTO] In index.js : import 'bootstrap/dist/css/bootstrap.css';
 - [FATTO] npm start : e l'app ora + più...bella!
-- 
+- [FATTO] aggiunto codice html Navbar ed eliminato warning : class --> className
+- [17:23] sostituito l'inefficente codice html con il componente Navbar : <Navbar />
+- [FATTO] aggiunto html dentro al componente JSX : <>...</>
+
+
