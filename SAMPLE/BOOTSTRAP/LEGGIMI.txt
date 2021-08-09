@@ -1,7 +1,5 @@
-VIDEO TUTORIAL:
+VIDEO TUTORIAL - PitoneProgrammatore - 25 marzo 2021
 Bootstrap Tutorial ITA - Imparalo subito! Corso rapido per principianti. Guida in ITALIANO
-25 marzo 2021
-PitoneProgrammatore
 https://www.youtube.com/watch?v=Vg5lwv3WA3M
 
 Sito Bootstrap:
@@ -34,15 +32,16 @@ INDICE DEI CONTENUTI:
 24:15 Nei prossimi video di questa serie..
 
 LOG 8/8/21:
-Creato primo file html hello world, modificato il titolo
+- [FATTO] Creato primo file html hello world, modificato il titolo
 https://getbootstrap.com/docs/5.1/components/navbar/ : aggiunta Navbar icona+titolo
 https://getbootstrap.com/docs/5.1/content/typography/ : usata class="lead"
 https://getbootstrap.com/docs/5.1/components/buttons/ : aggiunti pulsanti
 https://getbootstrap.com/docs/5.1/layout/containers/ : div responsive
 https://getbootstrap.com/docs/5.1/utilities/spacing/ : Spaziature
 https://getbootstrap.com/docs/5.1/utilities/text/ : Centrare i testi
-Aggiungere uno stile specifico al componente: style="max-width: 580px"
+- [FATTO] Aggiungere uno stile specifico al componente: style="max-width: 580px"
 https://getbootstrap.com/docs/5.1/components/card/ : pannello card con immagine, titolo, descrizione e pulsante
-Creiamo tre card in una div container
+- [FATTO] Creiamo tre card in una div container
 https://getbootstrap.com/docs/5.1/layout/grid/ : disporre le card su tre Colonne
 https://getbootstrap.com/docs/5.1/layout/breakpoints/ : es. class="col-sm"
+[TUTORIAL COMPLETATO!]

@@ -1,7 +1,5 @@
-VIDEO TUTORIAL:
+VIDEO TUTORIAL - PitoneProgrammatore - 25 marzo 2021
 React JS Tutorial ITA - Creare e pubblicare un sito Corso rapido per principianti. Guida in ITALIANO
-25 marzo 2021
-PitoneProgrammatore
 https://www.youtube.com/watch?v=MNE7hsP3JtY&list=PLI8CnIMh7oBGbEN4MVmTAWkzY0kmIQyXA&index=3
 
 Sito NodeJS
@@ -64,5 +62,4 @@ N.B. si tratta di codice JSX (estensione del javascript), che usa className (cio
 - [FATTO] aggiunto html dentro al componente JSX : <>...</>
 - [FATTO] pagina responsive : <div className="container">...</div>
 - [FATTO] aggiunti riga e colonna : <Card />
-
 
