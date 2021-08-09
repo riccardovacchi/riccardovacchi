@@ -56,5 +56,7 @@ LOG 8/8/21:
 - [FATTO] Prova di modifica App.js (tolta img, modificato testo e link), la pagina web già aperta si aggiorna da sola!
 N.B. si tratta di codice JSX (estensione del javascript), che usa className (cioè props), alcune simili altre diverse da js (es. Style!!!)
 - [FATTO] Un'occhiatina a : src/App.js src/index.js e public/index.HTML
-- [FATTO] Aggiungere Bootstrap a react
-
+- [FATTO] Aggiungere Bootstrap a react (previa stop nodejs) : npm install bootstrap
+- [FATTO] In index.js : import 'bootstrap/dist/css/bootstrap.css';
+- [FATTO] npm start : e l'app ora + più...bella!
+- 
