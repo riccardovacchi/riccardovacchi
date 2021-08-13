@@ -87,5 +87,9 @@ Quit the server with CTRL-BREAK.
 > Ctrl-C - server django stoppato
 - [FATTO] creare app "rolls":
 > python manage.py startapp rolls
+- [7:00] settings.py : aggiunta installed app "rolls"
+http://localhost:8000/rolls/
+Page not found 404
+- [11:32] importata pagina html in templates\rolls, aggiunta alle views, e configurata in urls.py
 
 
