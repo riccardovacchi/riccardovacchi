@@ -85,6 +85,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 - [FATTO] localhost:8000
 > Ctrl-C - server django stoppato
-
+- [FATTO] creare app "rolls":
+> python manage.py startapp rolls
 
 
