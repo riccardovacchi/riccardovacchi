@@ -10,6 +10,20 @@ import rainbow from './images/rainbow.png';
 import shrimp from './images/shrimp.png';
 
 class App extends Component {
+  state = {
+    cards: [
+      { id: 0, nome: "California", prezzo: 1.99, immagine: california },
+      { id: 1, nome: "Dragon", prezzo: 3.49, immagine: dragon },
+      { id: 2, nome: "Dynamite", prezzo: 2.49, immagine: dynamite },
+      { id: 3, nome: "Philadelphia", prezzo: 0.99, immagine: philadelphia },
+      { id: 4, nome: "Rainbow", prezzo: 2.99, immagine: rainbow },
+      { id: 5, nome: "Shrimp", prezzo: 1.49, immagine: shrimp }
+    ]
+  }
+  handleDelete = cardId => {
+    const cards = this.state.cards.filter(card => card.id !== cardId);
+    this.setState({cards});
+  }
   render() {
     return (
       <>
@@ -18,12 +32,9 @@ class App extends Component {
           <h1>Cosa desideri ordinare?</h1>
           <hr />
           <div className="row">
-            <Card immagine={california} nome="California" prezzo={1.99}/>
-            <Card immagine={dragon} nome="Dragon" prezzo={3.49}/>
-            <Card immagine={dynamite} nome="Dynamite" prezzo={2.49}/>
-            <Card immagine={philadelphia} nome="Philadelphia" prezzo={0.99}/>
-            <Card immagine={rainbow} nome="Rainbow" prezzo={2.99}/>
-            <Card immagine={shrimp} nome="Shrimp" prezzo={1.49}/>
+            {this.state.cards.map(card => (
+              <Card key={card.id} onDelete={this.handleDelete} card={card}/>
+            ))}
           </div>
         </div>
       </>

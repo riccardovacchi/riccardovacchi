@@ -63,4 +63,9 @@ N.B. si tratta di codice JSX (estensione del javascript), che usa className (cio
 - [FATTO] pagina responsive : <div className="container">...</div>
 - [FATTO] aggiunti riga e colonna : <Card />
 - [32:51] Usate le classi : class App extends Component
-- 
+- [48:20] Pulsante "Elimina" : handleDelete/onDelete/onClick
+N.B. le funzioni possono essere passate direttamente a react, ma solo se non hanno parametri:
+onClick={this.props.onDelete()}
+ma siccome l'onDelete ha bisogno dell'id della card, devo usare il freccione:
+onClick={() => this.props.onDelete(this.props.card.id)}
+- []  :
