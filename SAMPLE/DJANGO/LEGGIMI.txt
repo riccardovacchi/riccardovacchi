@@ -1,0 +1,90 @@
+VIDEO TUTORIAL - PitoneProgrammatore - 12 maggio 2021
+Django Tutorial ITA - Parte 1/3 - Creare e pubblicare un sito con Python! Corso in ITALIANO
+https://www.youtube.com/watch?v=zIRI-ufADq8&list=PLI8CnIMh7oBGbEN4MVmTAWkzY0kmIQyXA&index=4
+
+
+Scarica il file .html usato in questo tutorial:
+https://drive.google.com/file/d/1z510DdwQfHh1wbLc7RqY4-iK_V9Hba65/view
+
+Scarica la cartella "images" usata in questo tutorial:
+https://drive.google.com/file/d/1cxbK7jDivWzaV1FKu-gflGMlItYSVqIw/view
+
+Sito download Python:
+https://www.python.org/downloads/
+
+Sito Bootstrap:
+https://getbootstrap.com/
+
+Tutorial Linguaggio Python:
+https://youtu.be/_EsHwyjiqyQ
+
+
+INDICE DEI CONTENUTI:
+00:00 Cosa realizzeremo in questo video!
+01:00 In questa serie: Creiamo un sito dal front end al back end!
+01:58 Installare e configurare Django sul nostro PC
+04:53 Creare una App Django
+07:20 Le Viste: come mostrare una pagina HTML ad un indirizzo URL
+12:05 Gestire le Viste e gli URL in modo ottimale
+15:25 I Modelli: come leggere e scrivere dati su Database
+17:13 Le Migrazioni: come aggiornare il Database
+19:14 L'area di Amministrazione Django
+20:32 Accedere e Modificare il Database dall'Area di Amministrazione Django
+22:17 Scegliere dove salvare i File caricati a Database
+25:22 Modificare la rappresentazione dei Modelli a Database
+27:22 Leggere i valori dal Database e mostrarli sulla pagina HTML
+29:10 Il ciclo For in Django: ripetere porzioni di HTML dinamicamente
+30:54 Utilizzare le Variabili in Django
+32:26 ImageField: come estrarre immagini dal Database e mostrarle sulla pagina HTML
+33:35 Mostrare semplici Immagini Statiche in Django
+35:47 Aggiungere una nuova pagina web al sito
+40:43 Cambiare pagina web mediante un Bottone
+41:28 Assegnare dei Nomi alle pagine web per un uso ottimale
+45:03 Block e Extends: come organizzare al meglio i template HTML
+48:07 Nelle prossime puntate ...
+
+
+LOG 13/8/21:
+- [FATTO] Installare Python : usato link in descrizione
+python --version
+Python 3.9.6
+- [FATTO] Installare Django : 
+python -m pip install django
+WARNING: You are using pip version 21.1.3; however, version 21.2.4 is available.
+N.B. disinstallato python 3.9.6 e reinstallato di nuovo!
+C:\Users\rvacchi\AppData\Local\Programs\Python\Python39\python.exe -m pip install --upgrade pip
+Successfully installed pip-21.2.4
+- [ERRORE] Creare progetto django : django-admin startproject fullstack_sushi
+https://www.bing.com/search?q=django-admin+not+recognized&form=ANNH01&refig=94b6a053cfc7420e92263f70d3fd2d4b
+https://www.youtube.com/watch?v=EwJoN-G3w-s#:~:text=django-admin%20is%20not%20recognized%20as%20an%20internal%20or,and%20sign%20in%20to%20YouTube%20on%20your%20computer.
+> cmd
+> pip install django
+> django-admin
+not recognize!
+> python -m venv venv
+> venv\Scripts\activate
+(venv) > pip install django
+(venv) > django-admin
+OK!
+> cd C:\PROGETTI\riccardovacchi\SAMPLE\DJANGO
+..\SAMPLE\DJANGO> django-admin startproject fullstack_sushi
+OK!
+> cd fullstack_sushi
+OK!
+> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 13, 2021 - 17:56:58
+Django version 3.2.6, using settings 'fullstack_sushi.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+- [FATTO] localhost:8000
+> Ctrl-C - server django stoppato
+
+
+
