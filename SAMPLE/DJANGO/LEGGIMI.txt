@@ -91,5 +91,37 @@ Quit the server with CTRL-BREAK.
 http://localhost:8000/rolls/
 Page not found 404
 - [11:32] importata pagina html in templates\rolls, aggiunta alle views, e configurata in urls.py
+- [14:00] include rolls e file rolls\urls.py
+- [15:40] sqlite3 : il database leggero di django
+C:\WINDOWS\system32>cd c:\PROGETTI\riccardovacchi\SAMPLE\DJANGO\fullstack_sushi
+c:\PROGETTI\riccardovacchi\SAMPLE\DJANGO\fullstack_sushi>python manage.py makemigrations
+SystemCheckError: System check identified some issues:
+ERRORS:
+rolls.Rolls.immagine: (fields.E210) Cannot use ImageField because Pillow is not installed.
+        HINT: Get Pillow at https://pypi.org/project/Pillow/ or run command "python -m pip install Pillow".
+c:\PROGETTI\riccardovacchi\SAMPLE\DJANGO\fullstack_sushi>python -m pip install Pillow
+Collecting Pillow
+  Downloading Pillow-8.3.1-1-cp39-cp39-win_amd64.whl (3.2 MB)
+     |████████████████████████████████| 3.2 MB 3.2 MB/s
+Installing collected packages: Pillow
+Successfully installed Pillow-8.3.1
+c:\PROGETTI\riccardovacchi\SAMPLE\DJANGO\fullstack_sushi>python manage.py makemigrations
+Migrations for 'rolls':
+  rolls\migrations\0001_initial.py
+    - Create model Rolls
+- [FATTO] creata migrazione rolls, il modello rolls ora è stato creato!
+- [18:15] creata tabella rolls : 
+c:\PROGETTI\riccardovacchi\SAMPLE\DJANGO\fullstack_sushi>python manage.py migrate
+OK
+- [FATTO] accesso ad admin (previa stop e start server per evitare errore)
+c:\PROGETTI\riccardovacchi\SAMPLE\DJANGO\fullstack_sushi>python manage.py createsuperuser
+Username (leave blank to use 'rvacchi'): admin
+Email address: admin@example.com
+Password: password
+Password (again): password
+This password is too common.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+- [FATTO] accesso admin/password OK
 
 
