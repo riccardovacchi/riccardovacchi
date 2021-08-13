@@ -66,6 +66,7 @@ N.B. si tratta di codice JSX (estensione del javascript), che usa className (cio
 - [48:20] Pulsante "Elimina" : handleDelete/onDelete/onClick
 N.B. le funzioni possono essere passate direttamente a react, ma solo se non hanno parametri:
 onClick={this.props.onDelete()}
-ma siccome l'onDelete ha bisogno dell'id della card, devo usare il freccione:
+ma siccome l'onDelete ha bisogno dell'argomento id della card, devo usare il freccione:
 onClick={() => this.props.onDelete(this.props.card.id)}
-- []  :
+- [FATTO] : Pulsante aggiungi con quantità che si incrementa
+FINE TUTORIAL
