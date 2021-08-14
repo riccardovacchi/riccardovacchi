@@ -130,3 +130,4 @@ Superuser created successfully.
 Stoppat il server con ctrl-c
 > python manage.py runserver
 OK!
+- [] 
