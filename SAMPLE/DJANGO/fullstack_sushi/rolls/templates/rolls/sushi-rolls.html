@@ -17,7 +17,8 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="./images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        {% load static %}
+        <img src={% static 'rolls/logo.png' %} alt="" width="30" height="24" class="d-inline-block align-text-top">
         Fullstack Sushi
       </a>
     </div>
@@ -31,72 +32,18 @@
   </div>
   <div class="container">
     <div class="row">
+      {% for roll in rolls %}
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
-          <img src="./images/california.png" class="card-img-top" alt="...">
+          <img src={{ roll.immagine.url }} class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">California Roll</h5>
-            <p class="card-text">Un piatto ricco di saggezza e tradizione. Ogni caloria ingerita contiene il coraggio di
-              Son Goku, la perspicacia del Detective Conan e la prestanza fisica di Doraemon</p>
+            <h5 class="card-title">{{roll.nome}} Roll</h5>
+            <p class="card-text">€ {{roll.prezzo}}</p>
             <a href="#" class="btn btn-primary">Acquista</a>
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/dragon.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Dragon Roll</h5>
-            <p class="card-text">La potenza del drago in un morso. Vi sentirete forti come mai. Niente resterà più come
-              prima nel vostro palato!</p>
-            <a href="#" class="btn btn-primary">Acquista</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/dynamite.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Dynamite Roll</h5>
-            <p class="card-text">Vi sorprenderà con un'esplosione di gusti di cui non potrete più fare a meno. Dopo un
-              Dynamite Roll, scoppierete letteralmente di salute!</p>
-            <a href="#" class="btn btn-primary">Acquista</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/philadelphia.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Philadelfia Roll</h5>
-            <p class="card-text">Un piatto ricco di saggezza e tradizione. Ogni caloria ingerita contiene il coraggio di
-              Son Goku, la perspicacia del Detective Conan e la prestanza fisica di Doraemon</p>
-            <a href="#" class="btn btn-primary">Acquista</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/rainbow.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Raimbow Roll</h5>
-            <p class="card-text">La potenza del drago in un morso. Vi sentirete forti come mai. Niente resterà più come
-              prima nel vostro palato!</p>
-            <a href="#" class="btn btn-primary">Acquista</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="./images/shrimp.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Shrimp Roll</h5>
-            <p class="card-text">Vi sorprenderà con un'esplosione di gusti di cui non potrete più fare a meno. Dopo un
-              Dynamite Roll, scoppierete letteralmente di salute!</p>
-            <a href="#" class="btn btn-primary">Acquista</a>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"

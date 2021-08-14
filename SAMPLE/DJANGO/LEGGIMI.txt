@@ -131,3 +131,4 @@ Stoppat il server con ctrl-c
 > python manage.py runserver
 OK!
 - [FATTO] add MEDIA_ROOT e creati 6 record in tabella Rolls (aggiunto ___str___, cioé il toString)
+- [FATTO] mostarti rolls e logo nella pagina web usando le variabili django

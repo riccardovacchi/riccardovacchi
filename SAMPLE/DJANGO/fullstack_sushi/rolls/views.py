@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .models import Roll
 
 # Create your views here.
 def rolls(request):
-    return render(request, 'rolls/sushi-rolls.html')
+    rolls = Roll.objects.all()
+    return render(request, 'rolls/sushi-rolls.html', {'rolls': rolls})
