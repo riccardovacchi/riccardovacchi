@@ -123,5 +123,10 @@ This password is too common.
 Bypass password validation and create user anyway? [y/N]: y
 Superuser created successfully.
 - [FATTO] accesso admin/password OK
-
-
+- [FATTO] ho sbagliato a creare il modello e la classe (usato Rolls invece di Roll):
+> corretto l'errore i nmodels.py e admin.py
+> python manage.py makemigrations
+> python manage.py migrate
+Stoppat il server con ctrl-c
+> python manage.py runserver
+OK!
